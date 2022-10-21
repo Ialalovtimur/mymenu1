@@ -1,0 +1,79 @@
+#menu {
+	display: flex;
+}
+
+#menu a {
+	margin-right: 5px;
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: white;
+	border: 1px solid green;
+	background-color: green;
+}
+
+#menu a:hover {
+	color: green;
+    border: 1px solid green;
+	background-color: white;
+}
+
+#menu a:hover, #menu a.active {
+	color: green;
+	border: 1px solid green;
+	background-color: white;
+}
+
+
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    margin: 5% auto;
+    border: 1px solid green;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    color: green;
+    border: 1px solid green;
+    background-color: rgb(255, 255, 255);
+}
+
+.vertical-menu a.active {
+   	border: 1px solid green;
+    background-color: white;
+    color: green;
+}
+
+
+
+
+.gorizont-menu {
+    width: 250px;
+    display: flex;
+}
+
+.gorizont-menu a {
+	padding: 15px;
+	font: 15px Arial;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+}
+
+.gorizont-menu a:hover{
+    color: white;
+	background-color: rgb(19, 92, 37);
+}
+
+.gorizont-menu .active{
+	color: rgb(255, 255, 255);
+	background-color: rgb(19, 92, 37);
+}
